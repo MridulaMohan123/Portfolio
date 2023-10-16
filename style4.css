@@ -1,0 +1,258 @@
+/* harder part*/
+.logo{
+    width:120px ;
+   
+     margin-left: 50px;
+    margin-top: 26px;
+    
+}
+.headerclass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    margin-right: 60px;
+    display: flex;
+    list-style-type: none;
+}
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    color: black;
+}
+.links:hover{
+    color: blue;
+}
+/* home section*/
+#home{
+   margin-top: 100px; 
+}
+.title{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.titleh1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.second-name{
+    color: orange;
+}
+.download{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+margin: 30px 0px;
+display: inline-block;
+border-radius: 5px;
+font-weight: bold;
+}
+.images{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover #girl{
+    left: 30%;
+}
+.images:hover #shape{
+bottom: 70px;
+}
+/*about section*/
+#about{
+    margin-top: 200px;
+}
+.heading{
+    text-align:center ;
+    margin-top: 50px;
+}
+.heading h3{
+    color: green;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 2rem;
+}
+.information{
+    margin-top: 10px;
+}
+.info-box{
+    margin-bottom: 10px;
+}
+.about-details{
+    font-size: 18px;
+    text-align: justify;
+}
+.about-img img{
+    width: 70%;
+}
+#skills{
+    margin-top: 200px;
+}
+.skillhead{
+    text-align: center;
+    margin-top: 50px;
+}
+.skillhead h3{
+    color: green;
+    margin-top: -10px;
+}
+.percentage-line1{
+    width: 300px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.percentage-fill1{
+    width: 95%;
+    height: 100%;
+    background-color:orange;
+}
+.percentage1{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.html{
+    justify-content: space-between;
+}
+.html span{ 
+    margin-left: 16%;
+    display: inline-flex;
+}
+.percentage-line2{
+    width: 300px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.percentage-fill2{
+    width: 88%;
+    height: 100%;
+    background-color:orange;
+}
+.css{
+    justify-content: space-between;
+}
+.css span{ 
+    margin-left: 16%;
+    display: inline-flex;
+}
+.percentage2{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.percentage-line3{
+    width: 300px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.percentage-fill3{
+    width: 89%;
+    height: 100%;
+    background-color:orange;
+}
+.js{
+    justify-content: space-between;
+}
+.js span{ 
+    margin-left: 16%;
+    display: inline-flex;
+}
+.percentage3{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.react{
+    justify-content: space-between;
+}
+.react span{ 
+    margin-left: 16%;
+    display: inline-flex;
+}
+.percentage4{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.percentage-fill4{
+    width: 85%;
+    height: 100%;
+    background-color:orange;
+}
+.percentage-line4{
+    width: 300px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.skill-img{
+    width: 35%;
+    margin-left: 800px;
+    margin-top: -25%;
+    display: inline-block;
+}
+.contacts{
+    text-align: center;
+}
+#contact{
+    margin-top: 200px;
+}
+.contacts h3{
+    color: green;
+    margin-top: -10px;
+}
+.edit{
+    text-align: center;
+}
+
+.edit{
+    margin-top: 50px;
+}
+.edit i{
+    margin-left: 20px;
+}
+.edit i:hover{
+    color: red;
+    background-image: linear-gradient(to bottom right, red orange );
+    animation: shake 1s;   
+}
+@keyframes shake{
+10%{
+    transform: rotate(45deg);
+}
+20%{
+    transform: rotate(-45);
+}
+}
+#top-button{
+    width: 45px;
+    height: 45px;
+    margin-left: 95%;
+    border-radius: 50%;
+    background-image: linear-gradient(orange,red);
+    border-style: none;
+    margin-top:5%;
+}
+
